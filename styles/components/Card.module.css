@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  padding-bottom: 1rem;
+
+  font-weight: 500;
+}
+
+.cards {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  max-width: 300px;
+  background: #39394a;
+  border-radius: 6px;
+  padding: 20px;
+  border: 5px solid #9494a4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h2 {
+  margin-top: 2rem;
+  color: aliceblue;
+}
